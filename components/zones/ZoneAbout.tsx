@@ -47,7 +47,7 @@ export default function ZoneAbout() {
         className="relative mt-5 w-full aspect-[16/9] border border-[rgba(168,200,160,0.14)] overflow-hidden bg-base-deep"
       >
         <Image
-          src="/images/portrait-team.webp"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/portrait-team.webp`}
           alt="Стилизованная групповая иллюстрация команды Поле — не фото"
           fill
           sizes="(max-width: 768px) 100vw, 360px"

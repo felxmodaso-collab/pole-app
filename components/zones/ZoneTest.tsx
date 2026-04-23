@@ -89,7 +89,7 @@ export default function ZoneTest() {
       <div className="grid grid-cols-[180px_1fr] gap-7 h-full">
         <div className="relative w-[180px] h-[230px] border border-[rgba(168,200,160,0.18)] overflow-hidden bg-base-deep">
           <Image
-            src="/images/portrait-maria.webp"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/portrait-maria.webp`}
             alt="Стилизованный портрет Марии — репрезентативное изображение, не фото реального человека"
             fill
             sizes="180px"

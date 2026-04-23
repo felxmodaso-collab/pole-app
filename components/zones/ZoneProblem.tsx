@@ -35,7 +35,7 @@ export default function ZoneProblem() {
           transition={{ duration: 0.5, ease: [0.22, 0.8, 0.26, 1] }}
         >
           <Image
-            src="/images/desk-problem.webp"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/desk-problem.webp`}
             alt="Рабочий стол автора на 14-й месяц — пять наложенных окон приложений, рукописная тетрадь, кофе"
             fill
             sizes="(max-width: 768px) 100vw, 460px"

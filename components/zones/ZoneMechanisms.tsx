@@ -170,7 +170,7 @@ const CARDS = [
     tagline: "Не надо вспоминать, где вы были.",
     art: (
       <RasterIllustration
-        src="/images/timeline-recall.webp"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/timeline-recall.webp`}
         alt="Горизонтальная временная шкала с точками правок за 60 дней; последняя сессия подсвечена"
         fallback={<BookViewIllustrationFallback />}
       />
@@ -184,7 +184,7 @@ const CARDS = [
     tagline: "Холст — когда думаете. Прямоугольник — когда отдаёте редактору.",
     art: (
       <RasterIllustration
-        src="/images/bookview-compile.webp"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/bookview-compile.webp`}
         alt="Переход: 2D-холст → линейная страница манускрипта"
         fallback={<BookViewIllustrationFallback />}
       />
@@ -198,7 +198,7 @@ const CARDS = [
     tagline: "От параграфа к источнику одним нажатием.",
     art: (
       <RasterIllustration
-        src="/images/citation-link.webp"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/citation-link.webp`}
         alt="Параграф главы связан пунктирной дугой с источником на PDF"
         fallback={<CitationIllustrationFallback />}
       />
