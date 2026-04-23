@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+*.log
+# local-only large screenshots
+screenshots/*.png
+screenshots/small/
+next-env.d.ts
+*.tsbuildinfo
