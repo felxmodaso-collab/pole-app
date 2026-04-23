@@ -27,7 +27,7 @@ export default function MobileStack() {
         <figure className="mt-4 relative aspect-[16/10] w-full overflow-hidden border border-[rgba(168,200,160,0.14)] bg-base-deep">
           <img
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/desktop-preview.jpg`}
-            alt="Десктоп-версия — 7 зон Поле расположены пространственно на холсте, связаны тонкими конструкционными линиями"
+            alt="Десктоп-версия — 8 зон Поле расположены пространственно на холсте, связаны тонкими конструкционными линиями"
             className="w-full h-full object-cover opacity-85"
             loading="eager"
           />
@@ -36,7 +36,7 @@ export default function MobileStack() {
             className="absolute inset-0 pointer-events-none bg-gradient-to-b from-base-deep/15 via-transparent to-base-deep/70"
           />
           <figcaption className="absolute bottom-1.5 left-2.5 right-2.5 flex items-center justify-between font-mono text-[8.5px] uppercase tracking-[0.22em] text-cream-dim">
-            <span>превью · 7 зон · drag / zoom</span>
+            <span>превью · 8 зон · drag / zoom</span>
             <span className="text-anchor">desktop</span>
           </figcaption>
         </figure>

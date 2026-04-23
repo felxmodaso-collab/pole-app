@@ -35,11 +35,15 @@ body {
   overscroll-behavior: none;
 }
 
-/* On mobile we re-enable scrolling (vertical stacking fallback) */
+/* On mobile we re-enable scrolling (vertical stacking fallback).
+   height:auto lets the body grow with content; the desktop canvas uses
+   fixed-viewport 100% but mobile is a long-form scrollable article. */
 @media (max-width: 767px) {
   html,
   body {
-    overflow: auto;
+    height: auto;
+    min-height: 100%;
+    overflow: visible;
     background-attachment: scroll;
   }
 }

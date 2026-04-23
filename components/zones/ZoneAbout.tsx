@@ -36,7 +36,7 @@ export default function ZoneAbout() {
   const [hovered, setHovered] = useState<string | null>(null);
 
   return (
-    <ZoneShell id="about" marker="07 / команда">
+    <ZoneShell id="about" marker="08 / команда">
       <h2 className="font-serif text-[24px] leading-[1.08] tracking-[-0.012em] text-cream">
         Кто делает.
       </h2>
